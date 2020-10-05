@@ -1,2 +1,2 @@
 # unity-graphics-final
- A Unity project in VR that consists of graphics-oriented techniques.
+ A Unity project in VR that implements various graphics-oriented techniques.
