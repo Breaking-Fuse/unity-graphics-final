@@ -3,10 +3,10 @@
 
 <h1>My Road Map:</h1>
  <h2>Categories</h2>
-My Final Project is <b>3D</b>.
-My Target Platform is <b>Unity</b>.
-In Unity, <b>I Do plan to have an XR outcome</b> (Oculus VR) using the Headset and Touch Controllers
-I have the <b>Oculus Rift CV1 (Headset + Touch controllers) ready and available.</b>
+My Final Project is <b>3D</b>.</br>
+My Target Platform is <b>Unity</b>.</br>
+In Unity, <b>I Do plan to have an XR outcome</b> (Oculus VR) using the Headset and Touch Controllers.</br>
+I have the <b>Oculus Rift CV1 (Headset + Touch controllers) ready and available.</b></br>
 My “Version 0” repo is at: https://github.com/Breaking-Fuse/unity-graphics-final
  <h2>Specifics</h2>
 <h3>Your main theme for the project is:</h3>
