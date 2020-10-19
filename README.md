@@ -1,5 +1,5 @@
 # Unity Graphics Final
- A Unity project in VR that implements various graphics-oriented techniques.
+ A Unity project in VR that implements various graphics-oriented techniques and DOTS.
 
 <h1>My Road Map:</h1>
  <h2>Categories</h2>
