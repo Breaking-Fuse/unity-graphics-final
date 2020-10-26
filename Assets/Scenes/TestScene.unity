@@ -885,7 +885,7 @@ MonoBehaviour:
   leftTeleportRay: {fileID: 295233874}
   rightTeleportRay: {fileID: 894766292}
   teleportActivationButton: 2
-  activationThreshold: 0.1
+  activationThreshold: 0.05
 --- !u!1 &659086448
 GameObject:
   m_ObjectHideFlags: 0
