@@ -359,8 +359,8 @@ MonoBehaviour:
   m_TurnUsage: 0
   m_Controllers:
   - {fileID: 1177151472}
-  m_TurnAmount: 22.5
-  m_DebounceTime: 0.2
+  m_TurnAmount: 2
+  m_DebounceTime: 0
   m_DeadZone: 0.75
 --- !u!1 &70305465
 GameObject:
