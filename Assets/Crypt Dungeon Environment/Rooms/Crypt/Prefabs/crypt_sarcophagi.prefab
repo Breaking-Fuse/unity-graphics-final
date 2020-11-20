@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6720787972176192195}
   - component: {fileID: 6720787972179092177}
   - component: {fileID: 6720787972177962769}
+  - component: {fileID: 1977291453016493853}
   m_Layer: 0
   m_Name: sarcophagiBed
   m_TagString: Untagged
@@ -79,6 +80,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &1977291453016493853
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720787972175705763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300412, guid: c8091bb30e8ac4a47a414f303cbce738, type: 3}
 --- !u!1 &6720787972175705789
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,6 +105,7 @@ GameObject:
   - component: {fileID: 6720787972176192221}
   - component: {fileID: 6720787972179092179}
   - component: {fileID: 6720787972177962771}
+  - component: {fileID: 6718416244995139789}
   m_Layer: 0
   m_Name: sarcophagiTop
   m_TagString: Untagged
@@ -158,6 +174,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6718416244995139789
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720787972175705789}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300414, guid: c8091bb30e8ac4a47a414f303cbce738, type: 3}
 --- !u!1 &6720787972175706205
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +199,6 @@ GameObject:
   - component: {fileID: 6720787972176192637}
   - component: {fileID: 6720787972179092183}
   - component: {fileID: 6720787972177962775}
-  - component: {fileID: 2636468866625835391}
   m_Layer: 0
   m_Name: crypt_sarcophagi
   m_TagString: Untagged
@@ -186,7 +215,7 @@ Transform:
   m_GameObject: {fileID: 6720787972175706205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.09713308, y: 1, z: 0.2159217}
   m_Children:
   - {fileID: 6720787972176192195}
   - {fileID: 6720787972176192221}
@@ -240,17 +269,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2636468866625835391
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6720787972175706205}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300410, guid: c8091bb30e8ac4a47a414f303cbce738, type: 3}
