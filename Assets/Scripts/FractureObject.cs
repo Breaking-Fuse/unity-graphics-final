@@ -10,6 +10,8 @@ public class FractureObject : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            //HACK put into a child class ("FractureOrb:FractureObject")!
+            GameManager.isOrbShattered = true;
             Instantiate(fractured, transform.position, transform.rotation);
             Destroy(gameObject);
         }
