@@ -7,17 +7,20 @@ public class GameManager : MonoBehaviour
     public static bool isOrbShattered = false;
     public GameObject levelGeometry;
 
-    public void Start()
-    {
-    }
-
-    public void FixedUpdate()
+    public void Update()
     {
         if (isOrbShattered)
         {
-            
-            levelGeometry.SetActive(false); //not working? - Destroy() also doesn't work
+            ChangeEnvironment();
         }
+
     }
 
+
+    private void ChangeEnvironment()
+    {
+        RenderSettings.fogEndDistance = 10f;
+        //Shaders on LevelGeometry - Need to research Replacement Shaders!
+        Destroy(levelGeometry);
+    }
 }
